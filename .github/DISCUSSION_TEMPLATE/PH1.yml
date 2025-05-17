@@ -7,7 +7,7 @@ body:
         - 同様の質問がすでにされていないか検索しましたか？
         - ご自身で試したこと・調べたことをできるだけ記載しましょう。
 
-  - type: input
+  - type: dropdown
     id: week
     attributes:
       label: week（第何週目）のカリキュラムか
