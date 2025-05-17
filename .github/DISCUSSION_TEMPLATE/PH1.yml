@@ -6,7 +6,6 @@ body:
       label: 質問の前に確認...！
       options:
         - label: 同様の質問がすでにされていないか確認した（軽く眺めてみましょう）
-        - label: 試したこと・調べたことをできるだけ記載しましょう。
     validations:
       required: true
 
@@ -77,7 +76,7 @@ body:
     attributes:
       label: 投稿する前に確認...！
       options:
-        - label: 試したこと・調べたことをできるだけ記載しましょう。
+        - label: 試したこと・調べたことをできるだけ記載した
         - label: 投稿後はDiscordにも報告しましょう
     validations:
       required: true
