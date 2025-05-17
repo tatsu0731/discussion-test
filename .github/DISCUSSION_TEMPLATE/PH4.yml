@@ -1,0 +1,68 @@
+title: week[番号] - [質問タイトル]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 質問の前に確認...！
+        - 同様の質問がすでにされていないか検索しましたか？
+        - ご自身で試したこと・調べたことをできるだけ記載しましょう。
+
+  - type: input
+    id: week
+    attributes:
+      label: week（第何週目）のカリキュラムか
+      options:
+        - week1
+        - week2
+        - week3
+        - week4
+        - week5
+        - week6
+        - week7
+        - week8
+        - week9
+        - week10
+        - week11
+        - week12
+        - week13
+        - week14
+        - week15
+        - week16
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: 実行環境（OS）
+      options:
+        - Mac OS
+        - Windows
+        - Linux
+        - その他
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_is_happening
+    attributes:
+      label: 現在起こっていること（説明文やエラー文、スクショなど）
+      description: より詳細であればあるほど、ディスカッションを進めやすいです。
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_you_tried
+    attributes:
+      label: 自分で調べて試したこと
+      description: どんなワードで検索したか、どんな設定を試したかなどを記入すると、回答者が状況を把握しやすくなります。
+    validations:
+      required: false
+
+  - type: textarea
+    id: what_you_want
+    attributes:
+      label: 実現したいこと
+      description: ゴールが明確であればあるほど、メンターが協力しやすいです。
+    validations:
+      required: false
