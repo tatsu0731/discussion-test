@@ -1,11 +1,12 @@
 title: week[番号] - [質問タイトル]
 body:
-  - type: markdown
+  - type: checkboxes
+    id: notice
     attributes:
-      value: |
-        ## 質問の前に確認...！
-        - 同様の質問がすでにされていないか検索しましたか？
-        - ご自身で試したこと・調べたことをできるだけ記載しましょう。
+      label: 質問の前に確認...！
+      options:
+        - label: 同様の質問がすでにされていないか確認した（軽く眺めてみましょう）
+        - label: 試したこと・調べたことをできるだけ記載しましょう。
 
   - type: dropdown
     id: week
