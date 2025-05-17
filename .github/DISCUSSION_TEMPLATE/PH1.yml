@@ -1,7 +1,7 @@
 title: week[番号] - [質問タイトル]
 body:
   - type: checkboxes
-    id: notice
+    id: firstNotice
     attributes:
       label: 質問の前に確認...！
       options:
@@ -71,3 +71,13 @@ body:
       description: ゴールが明確であればあるほど、メンターが協力しやすいです。
     validations:
       required: false
+
+  - type: checkboxes
+    id: lastNotice
+    attributes:
+      label: 投稿する前に確認...！
+      options:
+        - label: 試したこと・調べたことをできるだけ記載しましょう。
+        - label: 投稿後はDiscordにも報告しましょう
+    validations:
+      required: true
