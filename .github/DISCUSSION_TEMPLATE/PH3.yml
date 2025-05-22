@@ -15,22 +15,23 @@ body:
       label: week（第何週目）のカリキュラムか
       description: weekに依存しない質問の場合はGeneralカテゴリに質問しましょう。
       options:
-        - week1
-        - week2
-        - week3
-        - week4
-        - week5
-        - week6
-        - week7
-        - week8
-        - week9
-        - week10
-        - week11
-        - week12
-        - week13
-        - week14
-        - week15
-        - week16
+        - week33
+        - week34
+        - week35
+        - week36
+        - week37
+        - week38
+        - week39
+        - week40
+        - week41
+        - week42
+        - week43
+        - week44
+        - week45
+        - week46
+        - week47
+        - week48
+
     validations:
       required: true
 
@@ -51,7 +52,7 @@ body:
     id: what_is_happening
     attributes:
       label: 現在起こっていること（説明文やエラー文、スクショなど）
-      description: より詳細であればあるほど、ディスカッションを進めやすいです。
+      description: 分かる範囲で問題ないです！間違っていてもメンターが並走するので大丈夫です^^
     validations:
       required: true
 
@@ -59,7 +60,7 @@ body:
     id: what_you_tried
     attributes:
       label: 自分で調べて試したこと
-      description: どんなワードで検索したか、どんな設定を試したかなどを記入すると、回答者が状況を把握しやすくなります。
+      description: どんなワードで検索したか、どんな設定を試したかなどを記入すると、回答者が状況を把握しやすくなります！
     validations:
       required: false
 
@@ -67,7 +68,7 @@ body:
     id: what_you_want
     attributes:
       label: 実現したいこと
-      description: ゴールが明確であればあるほど、メンターが協力しやすいです。
+      description: ゴールが明確であればあるほど、メンターが協力しやすいです！
     validations:
       required: false
 
@@ -76,7 +77,6 @@ body:
     attributes:
       label: 投稿する前に確認...！
       options:
-        - label: 試したこと・調べたことをできるだけ記載した
-        - label: 投稿後はDiscordにも報告しましょう
+        - label: 投稿後はDiscordにも報告する
     validations:
       required: true
